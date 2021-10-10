@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,500;1,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  padding: 5rem 5rem 4rem 5rem;
+  border-left: 30px solid #00aeff;
+}
+
+.navigation {
+  width: 100%;
+}
+.hng,
+.zuri,
+.ing {
+  padding: 0.3rem;
+  width: 30%;
+}
+
+.main__cert {
+  padding-top: 6rem;
+}
+
+.verify__cert {
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.part__name,
+.part__cohort,
+.mark {
+  font-weight: 500;
+}
+
+.part__cert {
+  font-size: 1.2rem;
+}
+
+.part__name {
+  padding: 2rem 0 0.6rem 0;
+  font-size: 3rem;
+}
+
+.part__year {
+  padding: 0.8rem 0 1rem 0;
+}
+
+.bold__text {
+  font-weight: bold;
+}
+
+.part__cohort {
+  color: #00aeff;
+}
+
+footer {
+  padding-top: 4.2rem;
+}
+
+.mark {
+  padding-top: 0.8rem;
+}
+
+@media screen and (min-width: 365px) {
+  .part__cert {
+    white-space: nowrap;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .part__cert {
+    font-size: 2.3rem;
+  }
+  .part__name {
+    padding: 2rem 0 0.6rem 0;
+    font-size: 4rem;
+  }
+  .part__year {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 2rem;
+  }
+  .part__year {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+  .verify__cert {
+    padding-top: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .verify__cert {
+    padding-top: 0.5rem;
+  }
+}
